@@ -1,12 +1,12 @@
 [package]
-name = "test_grrs"
+name = "cli_grrs_rust_sample"
 version = "0.1.0"
 authors = ["Jeff Xie <jeffxie4@gmail.com>"]
 license = "MIT"
 description = "A tool to search files"
 readme = "README.md"
-homepage = "https://github.com/lumosityfan/test_grrs"
-repository = "https://github.com/lumosityfan/test_grrs"
+homepage = "https://github.com/lumosityfan/cli_grrs_rust_sample"
+repository = "https://github.com/lumosityfan/cli_grrs_rust_sample"
 keywords = ["cli", "search", "demo"]
 categories = ["command-line-utilities"]
 edition = "2024"
