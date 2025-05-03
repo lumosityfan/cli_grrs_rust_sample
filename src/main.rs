@@ -16,13 +16,13 @@ fn main() -> Result<()> {
     let content = std::fs::read_to_string(&args.path).with_context(|| format!("could not read file '{}'", args.path.display()))?;
 
     
-    grrs::find_matches(&content, &args.pattern, &mut std::io::stdout());
+    test_grrs::find_matches(&content, &args.pattern, &mut std::io::stdout());
     Ok(())
 }
 
 #[test]
 fn find_a_match() {
     let mut result = Vec::new();
-    grrs::find_matches("lorem ipsum\ndolor sit amet", "lorem", &mut result);
+    test_grrs::find_matches("lorem ipsum\ndolor sit amet", "lorem", &mut result);
     assert_eq!(result, b"lorem ipsum\n");
 }

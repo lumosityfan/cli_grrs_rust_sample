@@ -1,6 +1,6 @@
 ** About this project **
 
-This project comes from the Command Line Tutorial for Rust and is named grrs. The tool is used to parse through files and figure out if a certain pattern exists in that file, then prints out the lines where the pattern is located, if at all. The tool contains error handling for if a file doesn't exist or the buffer is overloaded and contains tests for empty strings, if the file doesn't exist, and testing if the file content is properly printed out. Future tests will include seeing what happens if a pattern doesn't exist in a file.
+This project comes from the Command Line Tutorial for Rust and is named test_grrs. The tool is used to parse through files and figure out if a certain pattern exists in that file, then prints out the lines where the pattern is located, if at all. The tool contains error handling for if a file doesn't exist or the buffer is overloaded and contains tests for empty strings, if the file doesn't exist, and testing if the file content is properly printed out. Future tests will include seeing what happens if a pattern doesn't exist in a file.
 
 ** How to Use **
 
